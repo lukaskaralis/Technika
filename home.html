@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kariuomenės Technika</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <header>
+        <div class="left-section">
+            <div class="logo">
+                <img src="Foto/logo.png" alt="Logo" class="logo">
+            </div>
+            <div class="dropdown">
+                <button data-target="dropdown1" class="dropbtn">Technika</button>
+                <div class="dropdown-content dropdown1">
+                    <a href="#">Tankai</a>
+                    <a href="#">Artilerija</a>
+                    <a href="#">Sraigtasparniai</a>
+                </div>
+            </div>
+            <div class="dropdown"> 
+                <button data-target="dropdown2" class="dropbtn">Informacija</button>
+                <div class="dropdown-content dropdown2">
+                    <a href="#">Kontaktai</a>
+                    <a href="#">Apie mus</a>
+                    <a href="#">Žaidimas</a>
+                </div>
+            </div>   
+        </div>
+        <div class="right-section">
+            <label for="search"></label>
+            <input type="text" id="search" placeholder="Paieška...">
+            <button class="nav-button">Ieškoti</button>
+            <button class="nav-button">Profilis</button>
+            <button class="nav-button">Atsijungti</button>
+            <div class="dropdown icon">
+                <button data-target="dropdown" class="dropbtn">&#9776;</button>
+                <div class="dropdown-content">
+                    <a href="#">Technika</a>
+                    <a href="#">Informacija</a>
+                    <div class="sub-dropdown">
+                        <button class="sub-dropbtn">Informacija</button>
+                            <div class="sub-dropdown-content">
+                                <a href="#">Sub-option 1</a>
+                                <a href="#">Sub-option 2</a>
+                            </div>
+                    </div>
+                    <a href="#">Option 3</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="line1">
+            <div class="tankai">
+                <div class="clickable-div">
+                    <img src="" alt="Descriptive Alt Text" class="clickable-image" id="tank1">
+                    <p class="clickable-text" id="tankName1"></p>
+                </div>
+                <div class="clickable-div">
+                    <img src="" alt="Descriptive Alt Text" class="clickable-image" id="tank2">
+                    <div class="slide-buttons">
+                    </div>
+                    <p class="clickable-text" id="tankName2"></p>
+                </div>
+            </div>
+            <div class="tank-info">
+                <h2>TANKAS</h2>
+                <p>&emsp;&emsp;Tankas yra šarvuotas kovos automobilis, skirtas naudoti sausumos mūšiuose.Jis pasižymi storu šarvu, kuris saugo įgulą ir vidinius komponentus nuo priešų ugnies.Tankuose paprastai būna galinga patranka, įmontuota į besisukantį bokštelį, taip pat gali būti kulkosvaidžių, raketų paleidimo įrenginių ar dūmų granatų paleidėjų.
+                    <br>&emsp;&emsp;Galingas dyzelinis variklis varo vikšrus, kurie suteikia tankui gerą mobilumą įvairiomis vietovėmis. Įgula paprastai susideda iš 3-5 narių, įskaitant vadą, vairuotoją, šaulį ir užtaisytoją. Tankai naudojami įvairiems tikslams, priešų ginkluotės ir pėstininkų sunaikinimui, gynybinių pozicijų prasiveržimą ir priešų pajėgų sulaikymą.</p>
+            </div>  
+        </div>
+        <div class="line1">
+            <div class="tank-info">
+                <h2>SRAIGTASPARNIS</h2>
+                <p>&emsp;&emsp;Sraigtasparnis yra orlaivis, kuris pakyla, skrenda ir leidžiasi vertikaliai, naudodamas vieną ar daugiau horizontalių, besisukančių rotorių.Rotorius sukelia oro srautą, kuris pakelia sraigtasparnį ir leidžia jam skristi bet kuria kryptimi.
+                    <br>&emsp;&emsp;Sraigtasparniai yra labai manevringi ir gali skristi lėtai arba stacionarioje padėtyje, o tai juos daro idealiais įvairioms užduotims, įskaitant paieškos ir gelbėjimo operacijas, medicinos evakuaciją ir karines misijas.
+                    <br>&emsp;&emsp;Jie taip pat naudojami keleivių ir krovinių gabenimui į sunkiai pasiekiamas vietas. Sraigtasparniai gali būti varomi vienu ar keliais varikliais ir gali turėti įvairią įrangą, priklausomai nuo jų paskirties.</p>
+            </div> 
+            <div class="tankai">
+                <div class="clickable-div">
+                    <img src="" alt="Descriptive Alt Text" class="clickable-image" id="helicopter1">
+                    <p class="clickable-text" id="helicopterName1"></p>
+                </div>
+                <div class="clickable-div">
+                    <img src="" alt="Descriptive Alt Text" class="clickable-image" id="helicopter2">
+                    <p class="clickable-text" id="helicopterName2"></p>
+                </div>
+            </div>
+        </div>
+        <div class="line1">
+            <div class="tankai">
+                <div class="clickable-div">
+                    <img src="" alt="Descriptive Alt Text" class="clickable-image" id="artillery1">
+                    <p class="clickable-text" id="artilleryName1"></p>
+                </div>
+                <div class="clickable-div">
+                    <img src="" alt="Descriptive Alt Text" class="clickable-image" id="artillery2">
+                    <p class="clickable-text" id="artilleryName2"></p>
+                </div>
+            </div>
+            <div class="tank-info">
+                <h2>ARTILERIJA</h2>
+                <p>&emsp;&emsp;Artilerija yra ginklų rūšis, kurią sudaro sunkūs ginklai, skirti šaudymui iš tolimo atstumo. Tai gali apimti įvairius šaudymo prietaisus, tokius kaip artilerijos pabūklai, haubicų artilerija ar raketiniai ginklai. 
+                    <br>&emsp;&emsp;Artilerija dažnai naudojama kovos lauke kaip palaikomoji ugnis. Šie ginklai yra kritinės reikšmės kariuomenės veikloje, suteikiantys galimybę kontroliuoti teritoriją ir paremti kariuomenės operacijas.</p>
+            </div>  
+        </div>
+    </main>
+    
+<footer>
+    <p>Autoriaus teisės © 2023 Kariuomenės Technika | Interneto dizainą sukūrė Lukas Karalis</p>
+</footer>
+<script type="text/jscript" src="Javascript/home.js"></script>
+</body>
+</html>
